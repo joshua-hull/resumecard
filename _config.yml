@@ -94,29 +94,29 @@ author:
       name: ASP
       percentage:
   enviornments:
-    - env1:
+    - enviornment1:
     name: iOS
     percentage:
-    - env2:
+    - enviornment2:
     name: Linux
     percentage:
-    - env3:
+    - enviornment3:
     name: AWS
     percentage:
-    - env4:
+    - enviornment4:
     name: .NET
     percentage:
   databases:
-    - db1:
+    - database1:
     name: MySQL
     percentage:
-    - db2:
+    - database2:
     name: SQLite
     percentage:
-    - db3:
+    - database3:
     name: PostgreSQL
     percentage:
-    - db4:
+    - database4:
     name: T-SQL
     percentage:
   awards:

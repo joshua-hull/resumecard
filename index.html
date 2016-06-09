@@ -117,15 +117,15 @@ layout: default
               <h3 class="title with-icon"><span class="fa fa-code cat-title"></span> Databases</h3>
               <div class="grid-block">
                   <ul class="list-unstyled list-skills">
-                      {% for db in site.author.databases %}
+                      {% for database in site.author.databases %}
                           <li>
-                              {% if db.name %}
-                                  <span class="caption-skill">{{ db.name }}</span>
+                              {% if database.name %}
+                                  <span class="caption-skill">{{ database.name }}</span>
                               {% endif %}
-                              {% if db.percentage %}
+                              {% if database.percentage %}
                                   <div class="progress">
-                                      <div class="progress-bar" style="width: {{ db.percentage }}">
-                                          <span>{{ db.percentage }} </span>
+                                      <div class="progress-bar" style="width: {{ database.percentage }}">
+                                          <span>{{ database.percentage }} </span>
                                       </div>
                                   </div>
                               {% endif %}
@@ -140,13 +140,13 @@ layout: default
                   <ul class="list-unstyled list-skills">
                       {% for env in site.author.enviornments %}
                           <li>
-                              {% if env.name %}
-                                  <span class="caption-skill">{{ env.name }}</span>
+                              {% if enviornment.name %}
+                                  <span class="caption-skill">{{ enviornment.name }}</span>
                               {% endif %}
-                              {% if env.percentage %}
+                              {% if enviornment.percentage %}
                                   <div class="progress">
-                                      <div class="progress-bar" style="width: {{ env.percentage }}">
-                                          <span>{{ env.percentage }} </span>
+                                      <div class="progress-bar" style="width: {{ enviornment.percentage }}">
+                                          <span>{{ enviornment.percentage }} </span>
                                       </div>
                                   </div>
                               {% endif %}
