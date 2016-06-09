@@ -16,7 +16,7 @@ author:
   name: Joshua Hull
   title: Software Developer
   address: Greenville, SC
-  email: joshua.thorild.hull@gmail.com
+  email: joshua.thorild.hull[at]gmail[dot]com
   link: http://joshua-hull.github.io
   weibo:
   github: joshua-hull
@@ -32,7 +32,35 @@ author:
       title: Software Engineer
       started: 2016
       duration: (May 2016 - Present)
-      description: I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
+      description:
+    - work2:
+      company: Website Pipeline
+      location: Greenville, SC
+      title: Software Engineer
+      started: 2015
+      duration: (January 2015 - March 2016)
+      description:
+    - work3:
+      company: Clemson University School of Computing
+      location: Clemson, SC
+      title: Teaching Assistant
+      started: 2014
+      duration: (August 2014 - December 2014)
+      description:
+    - work4:
+      company: Clemson University Department of Mathematical Sciences
+      location: Clemson, SC
+      title: Mobile Application Developer
+      started: 2014
+      duration: (May 2014 - July 2014)
+      description:
+    - work5:
+      company: Clemson University Computing and Information Technology
+      location: Clemson, SC
+      title: Mobile Application Developer
+      started: 2014
+      duration: (January 2014 - May 2014)
+      description:
   educationHistory:
     - education1:
       organization: Clemson University
@@ -41,24 +69,67 @@ author:
       major: Computer Science
       started: 2012
       duration: (2012 - 2014)
-      description: I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
+      description:
   # languages:
   #   - language1:
   #     name: English
   #     proficiency: Native
   programmingSkills:
     - skill1:
-      name: HTML
-      percentage: 100%
+      name: C/C++
+      percentage:
     - skill2:
-      name: Bootstrap
-      percentage: 90%
+      name: Objective-C
+      percentage:
     - skill3:
-      name: JavaScript
-      percentage: 70%
+      name: HTML5/CSS3
+      percentage:
     - skill4:
-      name: AngularJS
-      percentage: 70%
+      name: JavaScript
+      percentage:
     - skill5:
-      name: Java/Java EE
-      percentage: 90%
+      name: .NET
+      percentage:
+    - skill6:
+      name: ASP
+      percentage:
+  enviornments:
+      -env1:
+      name: iOS
+      percentage:
+      -env2:
+      name: Linux
+      percentage:
+      -env3:
+      name: AWS
+      percentage:
+      -env4:
+      name: .NET
+      percentage:
+  databases:
+      -db1:
+      name: MySQL
+      percentage:
+      -db2:
+      name: SQLite
+      percentage:
+      -db3:
+      name: PostgreSQL
+      percentage:
+      -db4:
+      name: T-SQL
+      percentage:
+  awards:
+      -award1:
+      name: EPA P3 Awards
+      desc: Honorable Mentions
+      date: 2014
+      -award2:
+      name: Deans's List
+      desc:
+      date: Fall 2012
+      -award3:
+      name: Dean's List
+      desc:
+      date: Spring 2013
+  publications:
