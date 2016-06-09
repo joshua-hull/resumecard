@@ -95,41 +95,41 @@ author:
       percentage:
   enviornments:
     - enviornment1:
-    name: iOS
-    percentage:
+      name: iOS
+      percentage:
     - enviornment2:
-    name: Linux
-    percentage:
+      name: Linux
+      percentage:
     - enviornment3:
-    name: AWS
-    percentage:
+      name: AWS
+      percentage:
     - enviornment4:
-    name: .NET
-    percentage:
+      name: .NET
+      percentage:
   databases:
     - database1:
-    name: MySQL
-    percentage:
+      name: MySQL
+      percentage:
     - database2:
-    name: SQLite
-    percentage:
+      name: SQLite
+      percentage:
     - database3:
-    name: PostgreSQL
-    percentage:
+      name: PostgreSQL
+      percentage:
     - database4:
-    name: T-SQL
-    percentage:
+      name: T-SQL
+      percentage:
   awards:
     - award1:
-    name: EPA P3 Awards
-    desc: Honorable Mentions
-    date: 2014
+      name: EPA P3 Awards
+      desc: Honorable Mentions
+      date: 2014
     - award2:
-    name: Deans's List
-    desc:
-    date: Fall 2012
+      name: Deans's List
+      desc:
+      date: Fall 2012
     - award3:
-    name: Dean's List
-    desc:
-    date: Spring 2013
+      name: Dean's List
+      desc:
+      date: Spring 2013
   publications:
