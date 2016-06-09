@@ -61,6 +61,13 @@ author:
       started: 2014
       duration: (January 2014 - May 2014)
       description:
+    - work5:
+      company: Clemson University Computing and Information Technology
+      location: Clemson, SC
+      title: Help Desk Student Consultant
+      started: 2012
+      duration: (September 2014 - May 2014)
+      description:
   educationHistory:
     - education1:
       organization: Clemson University
@@ -124,12 +131,13 @@ author:
       name: EPA P3 Awards
       desc: Honorable Mentions
       date: 2014
-    - award2:
-      name: Deans's List
-      desc:
-      date: Fall 2012
     - award3:
       name: Dean's List
-      desc:
-      date: Spring 2013
+      desc: <ul><li>Spring 2013 Semester</li><li>Students achieving a grade point average between 3.50 and 3.99 on a 4.0 scale.</li></ul>
+      date: 2013
+    - award3:
+      name: Deans's List
+      desc: <ul><li>Fall 2012 Semester</li><li>Students achieving a grade point average between 3.50 and 3.99 on a 4.0 scale.</li></ul>
+      date: 2012
+
   publications:

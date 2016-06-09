@@ -113,7 +113,7 @@ layout: default
                 </div>
               {% endif %}
               {% if site.author.databases %}
-              <h3 class="title with-icon"><span class="fa fa-code cat-title"></span> Databases</h3>
+              <h3 class="title with-icon"><span class="fa fa-database cat-title"></span> Databases</h3>
               <div class="grid-block">
                   <ul class="list-unstyled list-skills">
                       {% for database in site.author.databases %}
@@ -134,10 +134,10 @@ layout: default
               </div>
               {% endif %}
               {% if site.author.enviornments %}
-              <h3 class="title with-icon"><span class="fa fa-code cat-title"></span> Environments</h3>
+              <h3 class="title with-icon"><span class="fa fa-keyboard cat-title"></span> Environments</h3>
               <div class="grid-block">
                   <ul class="list-unstyled list-skills">
-                      {% for env in site.author.enviornments %}
+                      {% for enviornment in site.author.enviornments %}
                           <li>
                               {% if enviornment.name %}
                                   <span class="caption-skill">{{ enviornment.name }}</span>
@@ -155,7 +155,7 @@ layout: default
               </div>
             {% endif %}
             {% if site.author.awards %}
-                <h3 class="title with-icon"><span class="fa fa-book cat-title"></span>Awards</h3>
+                <h3 class="title with-icon"><span class="fa fa-trophy cat-title"></span>Awards</h3>
                 <ul class="timeline">
                     {% for award in site.author.awards %}
                         <li class="timeline-inverted">
