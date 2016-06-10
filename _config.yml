@@ -60,6 +60,7 @@ author:
       title: Mobile Application Developer
       started: 2014
       duration: (January 2014 - May 2014)
+      description: <p>Learn more about the project at <a href="http://www.clemson.edu/public/rec/baruch/firefly_project/">The Vanishing Firefly Project's Website</a></p><ul><li>Updated existing iOS application to iOS 7 and published to the Apple App Store (version 2.0).</li><li>Set up and maintained PostgreSQL testing database and PHP-based API for application development.</li></ul>
     - work5:
       company: Clemson University Computing and Information Technology
       location: Clemson, SC
