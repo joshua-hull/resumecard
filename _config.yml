@@ -60,13 +60,13 @@ author:
       title: Mobile Application Developer
       started: 2014
       duration: (January 2014 - May 2014)
-      description: <p>Learn more about the project at <a href="http://www.clemson.edu/public/rec/baruch/firefly_project/">The Vanishing Firefly Project's Website</a></p><ul><li>Updated existing iOS application to iOS 7 and published to the Apple App Store (version 2.0).</li><li>Set up and maintained PostgreSQL testing database and PHP-based API for application development.</li></ul>
+      description: "<p>Learn more about the project at <a href=\"http://www.clemson.edu/public/rec/baruch/firefly_project/\">The Vanishing Firefly Project's Website</a> and the <a href=\"https://www.epa.gov/P3/20132014-p3-grant-recipients\">P3 Website</a></p><ul><li>Updated existing iOS application to iOS 7 and published to the Apple App Store (version 2.0).</li><li>Set up and maintained PostgreSQL testing database and PHP-based API for application development.</li></ul>"
     - work5:
       company: Clemson University Computing and Information Technology
       location: Clemson, SC
       title: Help Desk Student Consultant
       started: 2012
-      duration: (September 2014 - May 2014)
+      duration: (September 2012 - May 2014)
       description: <ul><li>Assist Faculty, Staff, Students, and other individuals associated with the University with computer software, hardware, and network troubleshooting.</li></ul>
   educationHistory:
     - education1:
@@ -75,7 +75,7 @@ author:
       degree: Bachelor
       major: Computer Science
       started: 2012
-      duration: (2012 - 2014)
+      duration: (August 2012 - December 2014)
       description:
   # languages:
   #   - language1:
@@ -129,7 +129,7 @@ author:
   awards:
     - award1:
       name: EPA P3 Awards
-      desc: <ul><li>Honorable Mentions</li></ul>
+      desc: <ul><li>Honorable Mentions</li><li>Clemson University Vanishing Firefly Project</li><li>https://www.epa.gov/P3/20132014-p3-grant-recipients</li></ul>
       date: 2014
     - award3:
       name: Dean's List
