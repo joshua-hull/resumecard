@@ -11,7 +11,7 @@ layout: default
               </div>
               <div class="content">
                 {% for work in site.author.workHistory %}
-                <div class="card">
+                <div style="padding:20px;{% if forloop.last == false %}margin-bottom:20px;{% endif %}"class="card">
                   {% if work.company %}
                       <h4>{{ work.company }} </h4>
                   {% endif %}
@@ -19,16 +19,17 @@ layout: default
                       {% if work.title %}
                           {{ work.title }}
                       {% endif %}
+                      {% if work.duration %}
+                          <i class="fa fa-calendar"></i> {{ work.duration }}
+                      {% endif %}
+                      {% if work.location %}
+                          | <i class="fa fa-map-marker"></i> {{ work.location }}
+                      {% endif %}
                   </small>
-                  {% if work.duration %}
-                      <i class="fa fa-calendar"></i> {{ work.duration }} |
-                  {% endif %}
-                  {% if work.location %}
-                      <i class="fa fa-map-marker"></i>  {{ work.location }}
-                  {% endif %}
+
                 </div>
                 {% endfor %}
-                <div class="">
+                <div>
                     {% if work.description %}
                         <p>{{ work.description }}</p>
                     {% endif %}
