@@ -35,47 +35,8 @@ layout: default
                 {% endfor %}
               </div>
             </div>
-                <!-- <h3 class="title with-icon"><span class="glyphicon glyphicon-plane cat-title"></span>Work History</h3>
-                <ul class="timeline">
-                    {% for work in site.author.workHistory %}
-                        <li class="timeline-inverted">
-                            {% if work.started %}
-                                <div class="timeline-badge info">{{ work.started }}</div>
-                            {% endif %}
-                            <div class="timeline-panel grid-block">
-                                <div class="timeline-heading">
-                                    {% if work.company %}
-                                        <h4 class="timeline-title">{{ work.company }} </h4>
-                                    {% endif %}
-                                    <p>
-                                        <small class="text-muted">
-                                            {% if work.title %}
-                                                {{ work.title }}
-                                            {% endif %}
-                                        </small>
-                                    </p>
-                                    <p>
-                                        <small class="text-muted">
-                                            {% if work.duration %}
-                                                <i class="fa fa-calendar"></i> {{ work.duration }} |
-                                            {% endif %}
-                                            {% if work.location %}
-                                                <i class="fa fa-map-marker"></i>  {{ work.location }}
-                                            {% endif %}
-                                        </small>
-                                    </p>
-                                </div>
-                                <div class="timeline-body">
-                                    {% if work.description %}
-                                        <p>{{ work.description }}</p>
-                                    {% endif %}
-                                </div>
-                            </div>
-                        </li>
-                    {% endfor %}
-                </ul> -->
             {% endif %}
-            {% if site.author.educationHistory %}
+            <!-- {% if site.author.educationHistory %}
                 <h3 class="title with-icon"><span class="fa fa-book cat-title"></span>Education History</h3>
                 <ul class="timeline">
                     {% for education in site.author.educationHistory %}
@@ -118,6 +79,38 @@ layout: default
                         </li>
                     {% endfor %}
                 </ul>
+            {% endif %} -->
+            {% if site.author.educationHistory %}
+            <div class="card">
+              <div class="header header-info text-center">
+                <h2>Education History</h2>
+              </div>
+              <div class="content">
+                {% for education in site.author.educationHistory %}
+                <div style="padding:20px;{% if forloop.last == false %}margin-bottom:20px;{% endif %}"class="card">
+                  {% if education.organization %}
+                      <h4>{{ education.organization }} </h4>
+                  {% endif %}
+                  <small class="text-muted">
+                      {% if education.major %}
+                          {{ education.major }}
+                      {% endif %}
+                      <br/>
+                      {% if education.duration %}
+                          <i class="fa fa-calendar"></i> {{ education.duration }}
+                      {% endif %}
+                      {% if education.location %}
+                          | <i class="fa fa-map-marker"></i> {{ education.location }}
+                      {% endif %}
+                  </small>
+                  {% if education.description %}
+                      <p>{{ education.description }}</p>
+                  {% endif %}
+
+                </div>
+                {% endfor %}
+              </div>
+            </div>
             {% endif %}
         </div>
         <div class="col-md-4">
