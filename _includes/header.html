@@ -1,18 +1,28 @@
-<div class="header">
+<nav class="navbar navbar-info">
     <div class="container-fluid">
-        <div class="row-fluid">
-            <div class="col-sm-4">
-                <h4>{{ site.author.name }}</h4>
-                <p>{{ site.author.title }}</p>
-                <p class="muted">{{ site.author.address }}</p>
-                <div class="clearfix"></div>
-            </div>
-            <div class="col-sm-4 visible-md-block visible-lg-block visible-sm-block">
-                {% if site.author.email %}<p><i class="fa fa-envelope-o fa-fw"></i> {{ site.author.email }} </p>{% endif %}
-                {% if site.author.github %}<p><i class="fa fa-github fa-fw"></i><a href="//github.com/{{ site.author.github }}" target="_blank">  @{{ site.author.github }} </a></p>{% endif %}
-                {% if site.author.linkedin %}<p><i class="fa fa-linkedin-square fa-fw"></i> <a href="//linkedin.com/in/{{ site.author.linkedin }}" target="_blank"> linkedin.com/in/{{ site.author.linkedin }} </a></p>{% endif %}
-                {% if site.author.twitter %}<p><i class="fa fa-twitter fa-fw"></i> <a href="//twitter.com/{{ site.author.twitter }}" target="_blank">  @{{ site.author.twitter }} </a></p>{% endif %}
-            </div>
+        <div class="navbar-header">
+            <a class="navbar-brand" href="{{ site.baseurl }}">Joshua Hull</a>
+
+        </div>
+
+        <div class="collapse navbar-collapse" id="example-navbar-icons">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                  <a href="mailto:joshua.thorild.hull@gmail.com"><i class="fa fa-envelope fa-fw"></i></a>
+                </li>
+                <li>
+                  <a href="http://joshua-hull.github.io/"><i class="fa fa-user fa-fw"></i></a>
+                </li>
+                <li>
+                  <a href="http:////linkedin.com/in/joshua-hull-25551624"><i class="fa fa-linkedin fa-fw"></i></a>
+                </li>
+                <li>
+                  <a href="https://github.com/joshua-hull"><i class="fa fa-github fa-fw"></i></a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/joshua_hull"><i class="fa fa-twitter fa-fw"></i></a>
+                </li>
+            </ul>
         </div>
     </div>
-</div>
+</nav>
