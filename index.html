@@ -92,6 +92,9 @@ layout: default
                       <h4>{{ education.organization }} </h4>
                   {% endif %}
                   <small class="text-muted">
+                      {% if education.degree %}
+                          {{ education.degree }},&nbsp
+                      {% endif %}
                       {% if education.major %}
                           {{ education.major }}
                       {% endif %}
