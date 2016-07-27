@@ -5,7 +5,7 @@ layout: default
     <div class="row-fluid">
         <div class="col-md-8">
             {% if site.author.workHistory %}
-            <div style="padding:25px;" class="card">
+            <div style="padding:25px;margin-bottom:20px" class="card">
               <div class="header header-info text-center">
                 <h2>Work History</h2>
               </div>
@@ -41,50 +41,6 @@ layout: default
               </div>
             </div>
             {% endif %}
-            <!-- {% if site.author.educationHistory %}
-                <h3 class="title with-icon"><span class="fa fa-book cat-title"></span>Education History</h3>
-                <ul class="timeline">
-                    {% for education in site.author.educationHistory %}
-                        <li class="timeline-inverted">
-                            {% if education.started %}
-                                <div class="timeline-badge info">{{ education.started }}</div>
-                            {% endif %}
-                            <div class="timeline-panel grid-block">
-                                <div class="timeline-heading">
-                                    {% if education.organization %}
-                                        <h4 class="timeline-title">{{ education.organization }}</h4>
-                                    {% endif %}
-                                    <p>
-                                        <small class="text-muted">
-                                            {% if education.degree %}
-                                                {{ education.degree }}
-                                            {% endif %}
-                                            {% if education.major %}
-                                                , {{ education.major }}
-                                            {% endif %}
-                                        </small>
-                                    </p>
-                                    <p>
-                                        <small class="text-muted">
-                                            {% if education.duration %}
-                                                <i class="fa fa-calendar"></i> {{ education.duration }} |
-                                            {% endif %}
-                                            {% if education.location %}
-                                                <i class="fa fa-map-marker"></i>  {{ education.location }}
-                                            {% endif %}
-                                        </small>
-                                    </p>
-                                </div>
-                                <div class="timeline-body">
-                                    {% if education.description %}
-                                        <p>{{ education.description }}</p>
-                                    {% endif %}
-                                </div>
-                            </div>
-                        </li>
-                    {% endfor %}
-                </ul>
-            {% endif %} -->
             {% if site.author.educationHistory %}
             <div style="padding:25px" class="card">
               <div class="header header-info text-center">
@@ -92,7 +48,7 @@ layout: default
               </div>
               <div class="content">
                 {% for education in site.author.educationHistory %}
-                  <div style="padding:20px;margin-top:20px{% if forloop.last == false %}margin-bottom:20px;{% endif %}"class="card">
+                  <div style="padding:20px;margin-top:20px{% if forloop.last == false %}margin-bottom:40px;{% endif %}"class="card">
                     {% if education.started %}
                     <button class="btn btn-info btn-fab btn-round" style="margin-left:-50px;margin-top:-65px;">
                       <small>{{ education.started }}</small>
