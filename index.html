@@ -19,6 +19,7 @@ layout: default
                       {% if work.title %}
                           {{ work.title }}
                       {% endif %}
+                      <br/>
                       {% if work.duration %}
                           <i class="fa fa-calendar"></i> {{ work.duration }}
                       {% endif %}
@@ -26,14 +27,12 @@ layout: default
                           | <i class="fa fa-map-marker"></i> {{ work.location }}
                       {% endif %}
                   </small>
+                  {% if work.description %}
+                      <p>{{ work.description }}</p>
+                  {% endif %}
 
                 </div>
                 {% endfor %}
-                <div>
-                    {% if work.description %}
-                        <p>{{ work.description }}</p>
-                    {% endif %}
-                </div>
               </div>
             </div>
                 <!-- <h3 class="title with-icon"><span class="glyphicon glyphicon-plane cat-title"></span>Work History</h3>
