@@ -6,8 +6,33 @@ layout: default
         <div class="col-md-8">
             {% if site.author.workHistory %}
             <div class="card">
-              <div class="card">
-                <h1 class="center-text">Work History</h1>
+              <div class="header header-info text-center">
+                <h2>Work History</h2>
+              </div>
+              <div class="content">
+                {% for work in site.author.workHistory %}
+                <div class="card">
+                  {% if work.company %}
+                      <h4>{{ work.company }} </h4>
+                  {% endif %}
+                  <small class="text-muted">
+                      {% if work.title %}
+                          {{ work.title }}
+                      {% endif %}
+                  </small>
+                  {% if work.duration %}
+                      <i class="fa fa-calendar"></i> {{ work.duration }} |
+                  {% endif %}
+                  {% if work.location %}
+                      <i class="fa fa-map-marker"></i>  {{ work.location }}
+                  {% endif %}
+                </div>
+                {% endfor %}
+                <div class="">
+                    {% if work.description %}
+                        <p>{{ work.description }}</p>
+                    {% endif %}
+                </div>
               </div>
             </div>
                 <!-- <h3 class="title with-icon"><span class="glyphicon glyphicon-plane cat-title"></span>Work History</h3>
