@@ -5,7 +5,7 @@ layout: default
     <div class="row-fluid">
         <div class="col-md-8">
             {% if site.author.workHistory %}
-            <div style="padding:25px;margin-bottom:20px" class="card">
+            <div style="padding:25px;margin-bottom:20px;" class="card">
               <div class="header header-info text-center">
                 <h2>Work History</h2>
               </div>
@@ -84,7 +84,7 @@ layout: default
         </div>
         <div class="col-md-4">
           {% if site.author.programmingSkills %}
-          <div style="padding:25px;" class="card">
+          <div style="padding:25px;margin-bottom:20px;" class="card">
             <div class="header header-info text-center">
               <h2>Programming Skills</h2>
             </div>
@@ -102,7 +102,7 @@ layout: default
           </div>
             {% endif %}
             {% if site.author.databases %}
-            <div style="padding:25px;" class="card">
+            <div style="padding:25px;margin-bottom:20px;" class="card">
               <div class="header header-info text-center">
                 <h2>Databases</h2>
               </div>
@@ -112,13 +112,31 @@ layout: default
                     {% endif %}
                     {% if database.percentage %}
                     <div class="progress">
-                      <div class="progress-bar progress-bar-info" style="width: {{ programmingSkill.percentage }}">
+                      <div class="progress-bar progress-bar-info" style="width: {{ database.percentage }}">
                       </div>
                     </div>
                     {% endif %}
                   {% endfor %}
+                </div>
             {% endif %}
-          </div>
+            {% if site.author.enviroments %}
+            <div style="padding:25px;margin-bottom:20px;" class="card">
+              <div class="header header-info text-center">
+                <h2>Environments</h2>
+              </div>
+                  {% for enviornment in site.author.enviornments %}
+                    {% if enviornment.name %}
+                    <span class="caption-skill">{{ enviornment.name }}</span>
+                    {% endif %}
+                    {% if enviornment.percentage %}
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-info" style="width: {{ enviornment.percentage }}">
+                      </div>
+                    </div>
+                    {% endif %}
+                  {% endfor %}
+                </div>
+            {% endif %}
             <!--
 
               {% if site.author.enviornments %}
