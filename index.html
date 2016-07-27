@@ -143,17 +143,19 @@ layout: default
                 <h2>Environments</h2>
               </div>
                   {% for award in site.author.awards %}
-                  {% if award.date %}
-                  <button class="btn btn-info btn-fab btn-round" style="margin-left:-50px;margin-top:-30px;">
-                    <small>{{ award.date }}</small>
-                  </button>
-                  {% endif %}
-                  {% if award.name %}
-                      <h4>{{ award.name }}</h4>
-                  {% endif %}
-                  {% if award.desc %}
-                      <p>{{ award.desc }}</p>
-                  {% endif %}
+                  <div style="padding:20px;padding-top:0px;margin-top:20px;{% if forloop.last == false %}margin-bottom:60px;{% endif %}" class="card">
+                    {% if award.date %}
+                    <button class="btn btn-info btn-fab btn-round" style="margin-left:-50px;margin-top:-30px;">
+                      <small>{{ award.date }}</small>
+                    </button>
+                    {% endif %}
+                    {% if award.name %}
+                        <h4>{{ award.name }}</h4>
+                    {% endif %}
+                    {% if award.desc %}
+                        <p>{{ award.desc }}</p>
+                    {% endif %}
+                  </div>
                   {% endfor %}
                 </div>
             {% endif %}
