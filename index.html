@@ -11,7 +11,12 @@ layout: default
               </div>
               <div class="content">
                 {% for work in site.author.workHistory %}
-                <div style="padding:20px;{% if forloop.last == false %}margin-bottom:20px;{% endif %}"class="card">
+                <div style="padding:20px;{% if forloop.last == false %}margin-bottom:20px;{% endif %}" class="card">
+                  {% if work.started %}
+                    <button class="btn btn-info btn-fab btn-round" style="margin-left:-50px;margin-top:-65px;">
+                      <small>{{ work.started }}</small>
+                    </button>
+                  {% endif %}
                   {% if work.company %}
                       <h4>{{ work.company }} </h4>
                   {% endif %}
@@ -81,14 +86,14 @@ layout: default
                 </ul>
             {% endif %} -->
             {% if site.author.educationHistory %}
-            <div class="card">
+            <div stype="padding:25px" class="card">
               <div class="header header-info text-center">
                 <h2>Education History</h2>
               </div>
               <div class="content">
                 {% for education in site.author.educationHistory %}
-                  {% if education.started %}
                   <div style="padding:20px;margin-top:20px{% if forloop.last == false %}margin-bottom:20px;{% endif %}"class="card">
+                    {% if education.started %}
                     <button class="btn btn-info btn-fab btn-round" style="margin-left:-50px;margin-top:-65px;">
                       <small>{{ education.started }}</small>
                     </button>
