@@ -137,29 +137,27 @@ layout: default
                   {% endfor %}
                 </div>
             {% endif %}
-            <!--
-
-              {% if site.author.enviornments %}
-              <h3 class="title with-icon"><span class="fa fa-keyboard-o cat-title"></span> Environments</h3>
-              <div class="grid-block">
-                  <ul class="list-unstyled list-skills">
-                      {% for enviornment in site.author.enviornments %}
-                          <li>
-                              {% if enviornment.name %}
-                                  <span class="caption-skill">{{ enviornment.name }}</span>
-                              {% endif %}
-                              {% if enviornment.percentage %}
-                                  <div class="progress">
-                                      <div class="progress-bar" style="width: {{ enviornment.percentage }}">
-                                          <span>{{ enviornment.percentage }} </span>
-                                      </div>
-                                  </div>
-                              {% endif %}
-                          </li>
-                      {% endfor %}
-                  </ul>
+            {% if site.author.enviornments %}
+            <div style="padding:25px;margin-bottom:20px;" class="card">
+              <div class="header header-info text-center">
+                <h2>Environments</h2>
               </div>
+                  {% for award in site.author.awards %}
+                  {% if award.date %}
+                  <button class="btn btn-info btn-fab btn-round" style="margin-left:-50px;margin-top:-30px;">
+                    <small>{{ award.date }}</small>
+                  </button>
+                  {% endif %}
+                  {% if award.name %}
+                      <h4>{{ award.name }}</h4>
+                  {% endif %}
+                  {% if award.desc %}
+                      <p>{{ award.desc }}</p>
+                  {% endif %}
+                  {% endfor %}
+                </div>
             {% endif %}
+            <!--
             {% if site.author.awards %}
                 <h3 class="title with-icon"><span class="fa fa-trophy cat-title"></span>Awards</h3>
                 <ul class="timeline">
