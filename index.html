@@ -11,7 +11,7 @@ layout: default
               </div>
               <div class="content">
                 {% for work in site.author.workHistory %}
-                <div style="padding:20px;{% if forloop.last == false %}margin-bottom:20px;{% endif %}" class="card">
+                <div style="padding:20px;padding-top:50px;{% if forloop.last == false %}margin-bottom:20px;{% endif %}" class="card">
                   {% if work.started %}
                     <button class="btn btn-info btn-fab btn-round" style="margin-left:-50px;margin-top:-65px;">
                       <small>{{ work.started }}</small>
@@ -48,7 +48,7 @@ layout: default
               </div>
               <div class="content">
                 {% for education in site.author.educationHistory %}
-                  <div style="padding:20px;margin-top:20px{% if forloop.last == false %}margin-bottom:40px;{% endif %}"class="card">
+                  <div style="padding:20px;padding-top:50px;margin-top:20px{% if forloop.last == false %}margin-bottom:40px;{% endif %}" class="card">
                     {% if education.started %}
                     <button class="btn btn-info btn-fab btn-round" style="margin-left:-50px;margin-top:-65px;">
                       <small>{{ education.started }}</small>
