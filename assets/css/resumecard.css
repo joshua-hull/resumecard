@@ -33,13 +33,13 @@ a {
     background-color: #444444;
 }
 
-.footer {
+/*.footer {
     padding: 20px 0;
     text-align: center;
     color: #f0f0f0;
     background-color: #575757;
     background-color: rgba(0, 0, 0, 0.6);
-}
+}*/
 
 hr {
     border: 0;
@@ -424,7 +424,7 @@ hr {
 }
 
 .ribbon{
-  position: absolute; 
+  position: absolute;
   top: 42px;
   width: 200px;
   padding: 1px 0;
@@ -454,16 +454,16 @@ hr {
   transform: rotate(45deg);
 }
 
-.ribbon a, 
-.ribbon a:visited, 
-.ribbon a:active, 
+.ribbon a,
+.ribbon a:visited,
+.ribbon a:active,
 .ribbon a:hover{
   display: block;
   padding: 1px 0;
   height: 24px;
   line-height: 24px;
 
-  color: inherit;  
+  color: inherit;
   text-align: center;
   text-decoration: none;
   font-family: 'Cabin Condensed', sans-serif;
