@@ -5,7 +5,7 @@ layout: default
     <div class="row-fluid">
         <div class="col-md-8">
             {% if site.author.workHistory %}
-            <div style="padding:25px;margin-bottom:20px;" class="card">
+            <div id="workhistory" style="padding:25px;margin-bottom:20px;" class="card">
               <div class="header header-info text-center">
                 <h2>Work History</h2>
               </div>
@@ -42,7 +42,7 @@ layout: default
             </div>
             {% endif %}
             {% if site.author.educationHistory %}
-            <div style="padding:25px" class="card">
+            <div id="educationhistory" style="padding:25px" class="card">
               <div class="header header-info text-center">
                 <h2>Education History</h2>
               </div>
@@ -84,7 +84,7 @@ layout: default
         </div>
         <div class="col-md-4">
           {% if site.author.programmingSkills %}
-          <div style="padding:25px;margin-bottom:20px;" class="card">
+          <div id="programmingskills" style="padding:25px;margin-bottom:20px;" class="card">
             <div class="header header-info text-center">
               <h2>Programming Skills</h2>
             </div>
@@ -102,7 +102,7 @@ layout: default
           </div>
             {% endif %}
             {% if site.author.databases %}
-            <div style="padding:25px;margin-bottom:20px;" class="card">
+            <div id="databases" style="padding:25px;margin-bottom:20px;" class="card">
               <div class="header header-info text-center">
                 <h2>Databases</h2>
               </div>
@@ -120,7 +120,7 @@ layout: default
                 </div>
             {% endif %}
             {% if site.author.enviornments %}
-            <div style="padding:25px;margin-bottom:20px;" class="card">
+            <div id="environments" style="padding:25px;margin-bottom:20px;" class="card">
               <div class="header header-info text-center">
                 <h2>Environments</h2>
               </div>
@@ -137,8 +137,8 @@ layout: default
                   {% endfor %}
                 </div>
             {% endif %}
-            {% if site.author.enviornments %}
-            <div style="padding:25px;margin-bottom:20px;padding-left:45px;padding-right:45px;" class="card">
+            {% if site.author.awards %}
+            <div id="awards" style="padding:25px;margin-bottom:20px;padding-left:45px;padding-right:45px;" class="card">
               <div class="header header-info text-center">
                 <h2>Awards</h2>
               </div>
