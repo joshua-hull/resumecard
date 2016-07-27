@@ -129,7 +129,7 @@ author:
   awards:
     - award1:
       name: EPA P3 Awards
-      desc: <ul><li>Honorable Mentions</li><li>Clemson University Vanishing Firefly Project</li><li>https://www.epa.gov/P3/20132014-p3-grant-recipients</li></ul>
+      desc: <ul><li>Honorable Mentions</li><li>Clemson University Vanishing Firefly Project</li><li><a href=\"https://www.epa.gov/P3/20132014-p3-grant-recipients\">P3 Website</a></li></ul>
       date: 2014
     - award3:
       name: Dean's List
