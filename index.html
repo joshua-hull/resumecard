@@ -95,55 +95,29 @@ layout: default
                   {% if programmingSkill.percentage %}
                   <div class="progress">
                     <div class="progress-bar progress-bar-info" style="width: {{ programmingSkill.percentage }}">
-                      <span>{{ programmingSkill.percentage }} </span>
                     </div>
                   </div>
                   {% endif %}
                 {% endfor %}
           </div>
             {% endif %}
-            <!-- {% if site.author.programmingSkills %}
-                <h3 class="title with-icon"><span class="fa fa-code cat-title"></span> Programming Skills</h3>
-                <div class="grid-block">
-                    <ul class="list-unstyled list-skills">
-                        {% for programmingSkill in site.author.programmingSkills %}
-                            <li>
-                                {% if programmingSkill.name %}
-                                    <span class="caption-skill">{{ programmingSkill.name }}</span>
-                                {% endif %}
-                                {% if programmingSkill.percentage %}
-                                    <div class="progress">
-                                        <div class="progress-bar" style="width: {{ programmingSkill.percentage }}">
-                                            <span>{{ programmingSkill.percentage }} </span>
-                                        </div>
-                                    </div>
-                                {% endif %}
-                            </li>
-                        {% endfor %}
-                    </ul>
-                </div>
-              {% endif %}
-              {% if site.author.databases %}
-              <h3 class="title with-icon"><span class="fa fa-database cat-title"></span> Databases</h3>
-              <div class="grid-block">
-                  <ul class="list-unstyled list-skills">
-                      {% for database in site.author.databases %}
-                          <li>
-                              {% if database.name %}
-                                  <span class="caption-skill">{{ database.name }}</span>
-                              {% endif %}
-                              {% if database.percentage %}
-                                  <div class="progress">
-                                      <div class="progress-bar" style="width: {{ database.percentage }}">
-                                          <span>{{ database.percentage }} </span>
-                                      </div>
-                                  </div>
-                              {% endif %}
-                          </li>
-                      {% endfor %}
-                  </ul>
+            {% if site.author.databases %}
+            <div style="padding:25px;" class="card">
+              <div class="header header-info text-center">
+                <h2>Databases</h2>
               </div>
-              {% endif %}
+                  {% for database in site.author.databases %}
+                    {% if database.name %}
+                    <span class="caption-skill">{{ database.name }}</span>
+                    {% endif %}
+                    {% if database.percentage %}
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-info" style="width: {{ programmingSkill.percentage }}">
+                      </div>
+                    </div>
+            {% endif %}
+            <!--
+
               {% if site.author.enviornments %}
               <h3 class="title with-icon"><span class="fa fa-keyboard-o cat-title"></span> Environments</h3>
               <div class="grid-block">
