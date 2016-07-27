@@ -89,18 +89,16 @@ layout: default
               <h2>Programming Skills</h2>
             </div>
                 {% for programmingSkill in site.author.programmingSkills %}
-                <li>
                   {% if programmingSkill.name %}
                   <span class="caption-skill">{{ programmingSkill.name }}</span>
                   {% endif %}
                   {% if programmingSkill.percentage %}
                   <div class="progress">
-                    <div class="progress-bar" style="width: {{ programmingSkill.percentage }}">
+                    <div class="progress-bar progress-bar-info" style="width: {{ programmingSkill.percentage }}">
                       <span>{{ programmingSkill.percentage }} </span>
                     </div>
                   </div>
                   {% endif %}
-                </li>
                 {% endfor %}
           </div>
             {% endif %}
