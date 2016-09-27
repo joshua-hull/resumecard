@@ -40,7 +40,7 @@ author:
             <li>Develop and verify backup solution for infrastructure.</li>
             <li>Evaluate and deploy monitoring solution for infrastructure.<li>
           </ul>
-          <li>Configure and deploy development tools for use by software engineering team.<li>
+          <li>Configure and deploy development tools for use by software engineering team.</li>
         </ul>
     - work2:
       company: Website Pipeline
@@ -70,12 +70,12 @@ author:
       started: 2014
       duration: (August 2014 - December 2014)
       description: >
-        "<ul>
+        <ul>
           <li>CPSC 4820-003 : Special Topic: Mobile Device Software</li>
           <li>Assisted students in learning the fundamentals of programing iOS applications.</li>
           <li>Introduced students to iOS 7 and transitioned to iOS 8 and XCode 6.</li>
           <li>Introduced students to SQLite3 and MySQL databases as well as PHP-based API programming. </li>
-        </ul>"
+        </ul>
     - work4:
       company: Clemson University Department of Mathematical Sciences
       location: Clemson, SC
@@ -96,11 +96,11 @@ author:
       started: 2014
       duration: (January 2014 - May 2014)
       description: >
-        "<p>Learn more about the project at <a href=\"http://www.clemson.edu/public/rec/baruch/firefly_project/\">The Vanishing Firefly Project's Website</a> and the <a href=\"https://www.epa.gov/P3/20132014-p3-grant-recipients\">P3 Website</a></p>
+        <p>Learn more about the project at <a href=\"http://www.clemson.edu/public/rec/baruch/firefly_project/\">The Vanishing Firefly Project's Website</a> and the <a href=\"https://www.epa.gov/P3/20132014-p3-grant-recipients\">P3 Website</a></p>
         <ul>
           <li>Updated existing iOS application to iOS 7 and published to the Apple App Store (version 2.0).</li>
           <li>Set up and maintained PostgreSQL testing database and PHP-based API for application development.</li>
-        </ul>"
+        </ul>
     - work5:
       company: Clemson University Computing and Information Technology
       location: Clemson, SC
