@@ -32,42 +32,85 @@ author:
       title: Software Engineer
       started: 2016
       duration: (May 2016 - Present)
-      description: <ul><li>Research, design, and plan transition to Amazon Web Services infrastructure from self managed infrastructure.</li></ul>
+      description: >
+        <ul>
+          <li>Research, design, and plan transition to Amazon Web Services infrastructure from self managed infrastructure.</li>
+          <ul>
+            <li>Evaluate 3rd party security solutions for infrastructure.</li>
+            <li>Develop and verify backup solution for infrastructure.</li>
+            <li>Evaluate and deploy monitoring solution for infrastructure.<li>
+          </ul>
+          <li>Configure and deploy development tools for use by software engineering team.<li>
+        </ul>
     - work2:
       company: Website Pipeline
       location: Greenville, SC
       title: Software Engineer
       started: 2015
       duration: (January 2015 - March 2016)
-      description: <ul><li>Updated production Business to Business (B2B) and Business to Consumer (B2C) retail websites based on customer business requirements.</li><li>ERP Team:</li><ul><li>Updated SQL-based sync configurations on production systems.</li><li>Updated .NET sync tool to import sales order data into production ERP systems using SQL stored procedures and ERP business objects.</li><li>Managed codebase in Team Foundation Server source control versioning system.</li></ul><li>Account Management Team:</li><ul><li>Updated server side ASP pages and client side HTML, CSS, and Javascript pages based on customer business requirements.</li><li>Coordinated publishing updates from testing environment to production environment with customers.</li></ul></ul>
+      description: >
+        <ul>
+          <li>Updated production Business to Business (B2B) and Business to Consumer (B2C) retail websites based on customer business requirements.</li>
+          <li>ERP Team:</li>
+          <ul>
+            <li>Updated SQL-based sync configurations on production systems.</li>
+            <li>Updated .NET sync tool to import sales order data into production ERP systems using SQL stored procedures and ERP business objects.</li>
+            <li>Managed codebase in Team Foundation Server source control versioning system.</li>
+          </ul>
+          <li>Account Management Team:</li>
+          <ul>
+            <li>Updated server side ASP pages and client side HTML, CSS, and Javascript pages based on customer business requirements.</li>
+            <li>Coordinated publishing updates from testing environment to production environment with customers.</li>
+          </ul>
+        </ul>
     - work3:
       company: Clemson University School of Computing
       location: Clemson, SC
       title: Teaching Assistant
       started: 2014
       duration: (August 2014 - December 2014)
-      description: "<ul><li>CPSC 4820-003 : Special Topic: Mobile Device Software</li><li>Assisted students in learning the fundamentals of programing iOS applications.</li><li>Introduced students to iOS 7 and transitioned to iOS 8 and XCode 6.</li><li>Introduced students to SQLite3 and MySQL databases as well as PHP-based API programming. </li></ul>"
+      description: >
+        "<ul>
+          <li>CPSC 4820-003 : Special Topic: Mobile Device Software</li>
+          <li>Assisted students in learning the fundamentals of programing iOS applications.</li>
+          <li>Introduced students to iOS 7 and transitioned to iOS 8 and XCode 6.</li>
+          <li>Introduced students to SQLite3 and MySQL databases as well as PHP-based API programming. </li>
+        </ul>"
     - work4:
       company: Clemson University Department of Mathematical Sciences
       location: Clemson, SC
       title: Mobile Application Developer
       started: 2014
       duration: (May 2014 - July 2014)
-      description: <ul><li>Continued development of interactive graphing application to assist students in learning the relationship between functions and their derivatives.</li><li>Developed several scenes to allow the user to interact by drawing with their finger.</li><li>Displayed interactive graphs to the user via the CorePlot library.</li><li>Pending publication to the Apple App Store (version 1.0).</li></ul>
+      description: >
+        <ul>
+          <li>Continued development of interactive graphing application to assist students in learning the relationship between functions and their derivatives.</li>
+          <li>Developed several scenes to allow the user to interact by drawing with their finger.</li>
+          <li>Displayed interactive graphs to the user via the CorePlot library.</li>
+          <li>Pending publication to the Apple App Store (version 1.0).</li>
+        </ul>
     - work5:
       company: Clemson University Computing and Information Technology
       location: Clemson, SC
       title: Mobile Application Developer
       started: 2014
       duration: (January 2014 - May 2014)
-      description: "<p>Learn more about the project at <a href=\"http://www.clemson.edu/public/rec/baruch/firefly_project/\">The Vanishing Firefly Project's Website</a> and the <a href=\"https://www.epa.gov/P3/20132014-p3-grant-recipients\">P3 Website</a></p><ul><li>Updated existing iOS application to iOS 7 and published to the Apple App Store (version 2.0).</li><li>Set up and maintained PostgreSQL testing database and PHP-based API for application development.</li></ul>"
+      description: >
+        "<p>Learn more about the project at <a href=\"http://www.clemson.edu/public/rec/baruch/firefly_project/\">The Vanishing Firefly Project's Website</a> and the <a href=\"https://www.epa.gov/P3/20132014-p3-grant-recipients\">P3 Website</a></p>
+        <ul>
+          <li>Updated existing iOS application to iOS 7 and published to the Apple App Store (version 2.0).</li>
+          <li>Set up and maintained PostgreSQL testing database and PHP-based API for application development.</li>
+        </ul>"
     - work5:
       company: Clemson University Computing and Information Technology
       location: Clemson, SC
       title: Help Desk Student Consultant
       started: 2012
       duration: (September 2012 - May 2014)
-      description: <ul><li>Assist Faculty, Staff, Students, and other individuals associated with the University with computer software, hardware, and network troubleshooting.</li></ul>
+      description: >
+        <ul>
+          <li>Assist Faculty, Staff, Students, and other individuals associated with the University with computer software, hardware, and network troubleshooting.</li>
+        </ul>
   educationHistory:
     - education1:
       organization: Clemson University
@@ -87,6 +130,9 @@ author:
       percentage: 80%
     - skill2:
       name: Objective-C
+      percentage: 75%
+    - skills7:
+      name: Python
       percentage: 75%
     - skill3:
       name: HTML5/CSS3
@@ -129,14 +175,27 @@ author:
   awards:
     - award1:
       name: EPA P3 Awards
-      desc: <ul><li>Honorable Mentions</li><li>Clemson University Vanishing Firefly Project</li><li><a href=\"https://www.epa.gov/P3/20132014-p3-grant-recipients\">P3 Website</a></li></ul>
+      desc: >
+        <ul>
+          <li>Honorable Mentions</li>
+          <li>Clemson University Vanishing Firefly Project</li>
+          <li><a href=\"https://www.epa.gov/P3/20132014-p3-grant-recipients\">P3 Website</a></li>
+        </ul>
       date: 2014
     - award3:
       name: Dean's List
-      desc: <ul><li>Spring 2013 Semester</li><li>Students achieving a grade point average between 3.50 and 3.99 on a 4.0 scale.</li></ul>
+      desc: >
+        <ul>
+          <li>Spring 2013 Semester</li>
+          <li>Students achieving a grade point average between 3.50 and 3.99 on a 4.0 scale.</li>
+          </ul>
       date: 2013
     - award3:
       name: Deans's List
-      desc: <ul><li>Fall 2012 Semester</li><li>Students achieving a grade point average between 3.50 and 3.99 on a 4.0 scale.</li></ul>
+      desc: >
+        <ul>
+          <li>Fall 2012 Semester</li>
+          <li>Students achieving a grade point average between 3.50 and 3.99 on a 4.0 scale.</li>
+        </ul>
       date: 2012
   publications:
